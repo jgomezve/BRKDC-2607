@@ -1,3 +1,9 @@
+
+variable "apic_password" {
+  description = "Password of APIC Controller"
+  type        = string
+}
+
 variable "tenant_name" {
   description = "Name of the Tenant"
   type        = string
