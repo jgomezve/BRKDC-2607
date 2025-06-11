@@ -1,5 +1,12 @@
 # BRKDCN-2607: Insfrastructure as Code for ACI using Terraform
 
+## Preparation
+
+* Set the APIC's password as environmental variable
+
+            export TF_VAR_apic_password=<APIC_PASSWORD>
+
+## Execution
 
 1. Download ACI Provider
 

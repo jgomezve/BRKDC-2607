@@ -10,7 +10,7 @@ terraform {
 provider "aci" {
   username = "admin"
   password = var.apic_password
-  url      = "https://myapic.com"
+  url      = "https://10.122.18.27"
 }
 
 data "aci_tenant" "myTenant" {
